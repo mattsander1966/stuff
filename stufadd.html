@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stufadd.css" type="text/css">
+    
+    <title>Stuf.Add</title>
+</head>
+
+<html>
+<body>
+    <div class="container">
+        <header class="header flex">
+            <div class="logo">
+                <img src="images/Original on Transparentwhite.png" alt="logo"><a href="stufindex.html"></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="stufindex.html">Stuf</a></li>
+                    <li><a href="#">Stuf.Add</a></li>
+                    <li><a href="stufbid.html">Stuf.Bid</a></li>
+                    <li><a href="stufitems.html">Stuf.Items</a></li>
+                </ul>
+            </nav>
+            <a class='cta' href="#"><button>Join</button></a>
+        </header>
+    </div>
+
+    <div class="heading">
+        <span class="title1">Stuf.Add</span>
+        <span class="title2">You've got stuf your fans would love to have!</span>
+        <span class="title3">Here's a chance to connect with fans, AND make a diff.</span>
+        <span class="title4">Click on Add.Stuf below, give us the deets, then do the tweets. And yeah, Insta, Snap and Pinta as well. 50% of the net-proceeds will be donated to the national organization you love - who is making a difference across the country.</span>
+        
+            <button class="register">
+                <a href="#modal" class="registerLink">Add.Stuf</a>
+            </button>
+    </div>
+        <div class="modal_container" id="modal">
+            <div class="modal">
+                <a href="#" class="close">+</a>
+                <span class="modal_heading">ENTER YOUR DEETS...</span>
+                    <form action="#">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Item">
+                        <input type="text" placeholder="Estimated Value">
+                        <input type="text" placeholder="Organization Supported">
+                        <label for="media">Upload some media</label>
+                        <input type="file" id="media" name="media" required />
+                        <input type="submit" class="btnRegister" value="REGISTER">
+                    </form>
+                        <a href="#" class="signin">
+                            Have an account already?
+                        </a>
+                        <a href="#" class="forgotPassword">
+                            Forgot Password?
+                        </a>
+            </div>
+        </div>
+
+        <footer>
+
+        </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
